@@ -15,4 +15,9 @@ void main() {
     l.sort();
     expect(binarySearch(l, 6), equals(l.indexOf(6)));
   });
+
+  test('Gnome sort', () {
+    final a = [3, 7, 6, 2, 9, 1, 4, 8, 5];
+    expect(gnomeSort(a), equals(a..sort()));
+  });
 }
