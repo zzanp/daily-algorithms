@@ -20,4 +20,8 @@ void main() {
     final a = [3, 7, 6, 2, 9, 1, 4, 8, 5];
     expect(gnomeSort(a), equals(a..sort()));
   });
+
+  test('Armstrong number', () {
+    expect(isArmstrong(370), equals(true));
+  });
 }
