@@ -24,4 +24,10 @@ void main() {
   test('Armstrong number', () {
     expect(isArmstrong(370), equals(true));
   });
+
+  test('Brute force search', () {
+    final text = 'verylongstringwithoutanymeaning';
+    final pat = 'outa';
+    expect(bruteforce(text, pat), equals(text.indexOf(pat)));
+  });
 }
