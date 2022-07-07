@@ -30,4 +30,9 @@ void main() {
     final pat = 'outa';
     expect(bruteforce(text, pat), equals(text.indexOf(pat)));
   });
+
+  test('Bubble sort', () {
+    final l = [6, 3, 9, 4, 1, 2, 8, 5, 7];
+    expect(bubbleSort(l), equals(l..sort()));
+  });
 }
