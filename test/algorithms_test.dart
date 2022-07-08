@@ -35,4 +35,9 @@ void main() {
     final l = [6, 3, 9, 4, 1, 2, 8, 5, 7];
     expect(bubbleSort(l), equals(l..sort()));
   });
+
+  test('Quick sort', () {
+    final l = [6, 9, 3, 4, 7, 1, 2, 8, 5];
+    expect(quicksort(l), equals(l..sort()));
+  });
 }
