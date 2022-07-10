@@ -7,4 +7,5 @@ export 'src/bubble_sort.dart';
 export 'src/factorial.dart';
 export 'src/gnome_sort.dart';
 export 'src/inv_sqrt.dart';
+export 'src/primes.dart';
 export 'src/quicksort.dart';

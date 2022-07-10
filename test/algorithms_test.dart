@@ -40,4 +40,8 @@ void main() {
     final l = [6, 9, 3, 4, 7, 1, 2, 8, 5];
     expect(quicksort(l), equals(l..sort()));
   });
+
+  test('Prime numbers', () {
+    expect(isPrime(18719), equals(true));
+  });
 }
