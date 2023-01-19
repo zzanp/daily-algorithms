@@ -44,4 +44,8 @@ void main() {
   test('Prime numbers', () {
     expect(isPrime(18719), equals(true));
   });
+
+  test('Palindrome', () {
+    expect(isPalindrome('yaay'), equals(true));
+  });
 }
